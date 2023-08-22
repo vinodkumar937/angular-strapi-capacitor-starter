@@ -1,16 +1,17 @@
 # Angular Strapi starter template
 
-This starter template uses backend as Strapi & frontend as Angular.
+This starter template uses backend as Strapi & frontend as Angular & Mobile as CapacitorJs
 
     - Angular 16
     - Strapi 4.12.5
+    - CapacitorJs 5.2.3
     - Node 18
 
 ## Get Started
 
 #### Clone the repo:
 ```bash
-git clone https://github.com/vinodkumar937/angular-strapi-starter.git project-name
+git clone https://github.com/vinodkumar937/angular-strapi-capacitor-starter.git project-name
 ```
 #### Change to `project` directory:
 ```bash
@@ -20,7 +21,7 @@ cd project-name
 ```bash
 yarn
 ```
-#### `Setup` backend & frontend:
+#### `Setup` backend, frontend & mobile:
 ```bash
 yarn setup
 ```
@@ -31,4 +32,8 @@ yarn build:backend
 #### Start backend & frontend:
 ```bash
 yarn develop
+```
+#### clear backend,frontend & mobile:
+```bash
+yarn clear
 ```
